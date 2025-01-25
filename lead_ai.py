@@ -190,7 +190,7 @@ keywords: list[str]
                         collection2 = Collection(source)
                         collection2.set_collection(
                             content=comment.get('comment'),
-                            url=comment.get('permalink'),
+                            url=f"{source_base_url}/{comment.get('permalink')}",
                             author_name=comment_author_name,
                             author_url=f"{source_base_url}/user/{comment_author_name}",
                         )
