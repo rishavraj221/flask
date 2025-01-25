@@ -1,0 +1,19 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+
+OPENAI_KEY = os.getenv("OPENAI_KEY")
+OPENAI_ORG = os.getenv("OPENAI_ORG")
+OPENAI_PROJECT = os.getenv("OPENAI_PROJECT")
+MODEL_NAME = os.getenv("MODEL_NAME")
+MODEL_TYPE = os.getenv("MODEL_TYPE")
+CHUNK_SIZE = os.getenv("CHUNK_SIZE")
+OVERLAP = os.getenv("OVERLAP")
+TWITTER_API_KEY = os.getenv("TWITTER_API_KEY")
+TWITTER_API_SECRET = os.getenv("TWITTER_API_SECRET")
+TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN")
+TWITTER_TOKEN_SECRET = os.getenv("TWITTER_TOKEN_SECRET")
+TWITTER_BEARER_TOKEN = os.getenv("TWITTER_BEARER_TOKEN")
+REDDIT_CLIENT_ID = os.getenv("REDDIT_CLIENT_ID")
+REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")

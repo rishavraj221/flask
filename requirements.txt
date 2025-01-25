@@ -1,0 +1,19 @@
+flask==3.1.0
+Flask-Cors==5.0.0
+openai==1.59.6
+python-dotenv==1.0.1
+
+llama-hub==0.0.79.post1
+ragatouille==0.0.8.post4
+colbert-ai==0.2.21
+# gunicorn==23.0.0
+# numpy==1.26.4
+faiss-cpu==1.9.0.post1
+pymilvus==2.3.6
+PyMuPDF==1.25.1
+torch==2.5.1 
+torchaudio==2.5.1 
+torchvision==0.20.1
+tensorflow-macos==2.16.2
+tensorflow-metal==1.1.0
+rerankers==0.6.1

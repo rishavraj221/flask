@@ -1,0 +1,24 @@
+venv
+/venv
+/.ragatouille
+/__pycache__
+milvus_demo.db
+reddit_scraper.log
+.DS_Store
+/volumes
+/experiments
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore virtual environments
+venv/
+.env/
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
