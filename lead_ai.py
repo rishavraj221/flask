@@ -169,7 +169,7 @@ keywords: list[str]
                     collection.set_sentiment(sentiments)
 
                     yield f"""data: {json.dumps({"type": "json_data", "data": collection.get_whole_collection()})}\n\n"""
-                    database.append(collection)
+                    # database.append(collection)
 
                     try:
                         comments = scraper.fetch_comments(
@@ -199,7 +199,7 @@ keywords: list[str]
                         collection2.set_sentiment(sentiments)
 
                         yield f"""data: {json.dumps({"type": "json_data", "data": collection2.get_whole_collection()})}\n\n"""
-                        database.append(collection2)
+                        # database.append(collection2)
 
         yield f"""data: {json.dumps({"type": "done", "data": "Scraping Complete."})}\n\n"""
         logger.info("Scraping complete.")
